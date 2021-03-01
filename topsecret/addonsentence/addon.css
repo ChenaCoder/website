@@ -1,0 +1,39 @@
+body{background: #bbbbbb;}
+.area{
+     margin-top: 5vh;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+form{
+     margin-top: 10vh;
+
+}
+.text{
+     margin-top: 5vh;
+     background-color: rgb(230, 241, 245);
+     margin-left: 20vw;
+     margin-right: 20vw;
+     height: 30vh;
+     border-radius: 0.65em;
+     overflow-y:scroll;
+     
+}
+#addonsentence{
+     font-size: 3vh;
+     margin-right: 5vw;
+     margin-left: 5vw;
+     
+}
+input{
+     height: 30px;
+     border-radius: 0.2em;
+     border: 1px solid black;
+}
+@media screen and (max-width:1000px){
+     #addonsentence{
+          font-size: 2vh;
+          
+          
+     }
+}

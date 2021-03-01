@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     
+     <title>Snake</title>
+</head>
+<body style="background-color: rgb(143, 227, 255);">
+     <center><h1 style="margin-top: 3%;margin-bottom: 0%;font-size: 500%;font-family: 'Boulder', Courier, monospace;color:rgb(175, 106, 240);">Snake</h1></center>
+     
+     <div style="display: inline-block;display: flex;font-size: 150%;font-family: 'Boulder', Courier, monospace;color:rgb(175, 106, 240);">
+     
+     
+     <p id="time" style="margin-left: auto;padding-right:150px ;"><b>Time: 00:00.00</b></p>
+     <p id="points" style="margin-right:auto;"><b>Points: 0</b></p>
+     
+     </p>
+     </div>
+     <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;padding-left: 0;padding-right: 0;margin-left: auto;margin-right: auto;display: block;background-color:black;"></canvas>
+     <div style="margin-left:auto;margin-right:auto;margin-top: 25px;">
+     <center>
+     <button id="start" onclick="timer()" style="margin-right:10px;">Start Game</button>
+     <button id="pause" onclick="stoptime()" style="margin-right:10px;">Pause Game</button>
+     <button id="new"   onclick="reset()" style="margin-right:10px;">New Game</button>
+     </center>
+     </div>
+     <script src="snake.js" ></script>
+</body>

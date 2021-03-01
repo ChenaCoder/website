@@ -1,0 +1,24 @@
+body {
+  background: url(../images/Mbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #12232e;
+  background-position: bottom 7%;
+}
+@media screen and (max-width: 630px) {
+  body {
+    background: none;
+    background-color:#12232e;
+  }
+}
+@media screen and (min-width: 2400px) {
+     @media screen and (max-height: 1200px) {
+          body{
+               background: url(../images/Mbackground.png);
+               background-size:70%;
+               background-repeat: no-repeat;
+               background-color: #12232e;
+               background-position: right 7%;
+          }
+     }
+}

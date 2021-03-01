@@ -1,0 +1,148 @@
+body {
+  background: #12232e;
+}
+.flex {
+  margin-top: 7vh;
+  display: flex;
+  background-color: #eefbfb;
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 6%;
+  margin-bottom: 4vh;
+  font-family: "Montserrat";
+  align-items: center;
+}
+.leftside{
+     flex-basis: 50%;
+}
+.leftside img {
+  
+  width: 30vw;
+  margin-left: 5vw;
+  border-radius: 6%;
+}
+.vl {
+  position: absolute;
+  border-left: 4px solid #21295cff;
+  height: 70vh;
+  left: 50%;
+}
+.rightside {
+     align-self: flex-start;
+     flex-basis: 50%;
+     margin-top: 5vh;
+     color:#12232e;
+  }
+.rightside p{
+     margin-left: 5vw;
+     margin-right: 5vw;
+}
+
+.table{
+     width:30vw ;
+     margin-top:6vh ;
+     
+}
+h1{
+     font-size: 2vw;
+}
+h3{
+     font-size: 1.5vw;
+}
+p{
+     font-size: 1vw;
+}
+
+table, th, td {
+     border: 0.12vw solid #12232e;
+     border-collapse: collapse;
+   }
+td{
+     border-left: none;
+     border-right: none;
+     font-size: 1vw;
+     font-weight: bold;
+}
+hr{
+     
+     display: none;
+}
+@media screen and (max-width:800px){
+     .vl{display: none;}
+     .flex{
+          flex-direction: column;
+          align-items: initial;
+     }
+     .leftside{
+          flex-basis: none ;
+          margin-top: 3vh;
+          margin-bottom: 3vh;
+          padding: none;
+     }
+     .rightside{
+          flex-basis: none;
+          margin-top: 0;
+     }
+     hr{
+          padding: none;
+          display: block;
+          margin-top: 0;
+          width: 75vw;
+          height: 2px;
+          background-color: #12232e;
+     }
+     h1{
+          font-size: 2vw;
+     }
+     h3{
+          font-size: 1.5vw;
+     }
+     p{
+          font-size: 1.3vw;
+     }
+     .table{
+          margin-top: 2vh;
+          font-size: 1.2vh;
+     }
+}
+@media screen and (max-height:1000px){
+     @media screen and (max-width:1000px){
+     h1{
+          font-size: 3vh;
+     }
+     h3{
+          font-size: 1.5vh;
+     }
+     p{
+          font-size: 1.2vh;
+     }
+     td{
+          font-size: 1vh;
+     }
+     .table{
+          margin-top: 2vh;
+     }
+     
+}
+}
+@media screen and (max-width:600px){
+     hr{
+          margin-top: -10vh;
+     }
+     .table{
+          width: 70vw;
+     }
+}
+@media screen and (max-width:500px){
+     hr{
+          margin-top: -15vh;
+     }
+}
+@media screen and (max-width:400px){
+     
+     hr{
+          margin-top: -20vh;
+     }
+}

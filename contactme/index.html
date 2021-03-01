@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../css/style.css">
+     <link rel="icon" href="../images/favicon.png" type="image/icon type">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="../css/contactme.css">
+     <title>Mark Zaydman</title>
+</head>
+
+<body>
+	<style>
+                                                 
+ 	@media screen and (max-height:800px){
+  	.main{
+    		height:100vh;
+   		margin-bottom:10vh;
+   
+  		}
+  	footer{
+     		bottom:initial;
+     		top: initial;
+  		}
+	}
+    </style>
+     <header>
+          <a href="../">
+               <div class="logo">Mark Zaydman</div>
+          </a>
+          <div class="innerheader">
+               <button class="menub" onclick="menu()"><img class="menu" src="../images/menu.png" alt="menu"></button>
+               <div class="nav">
+                    <a class="whitelinks" href="../" id="home">Home</a>
+                    <a class="whitelinks" href="../aboutme/">About Me</a>
+                    <a class="whitelinks" href="../skills/">Skills</a>
+                    <a class="whitelinks" href="../projects/">Projects</a>
+                    <a class="whitelinks" href="../contactme/">Contact Me</a>
+               </div>
+          </div>
+
+     </header>
+     <div class="breaker"></div>
+
+     <div class="main">
+          <div class="leftside">
+               <center>
+                    <h3>Contact Info: </h3>
+               </center>
+
+               <div class="contentleft">
+                    <center>
+                         <table>
+                              <tr>
+                                   <td>Name: </td>
+                                   <td>Mark Zaydman</td>
+                              </tr>
+                              <tr>
+                                   <td>Email: </td>
+                                   <td>aandmzayd@yahoo.com</td>
+                              </tr>
+
+                         </table>
+                         <h5>*All request that required a reply<br> will be answered to by email.</h5>
+                    </center>
+                    </div>
+          </div>
+          <div class="vl"></div>
+          <hr>
+          <div class="contactbox">
+               <center>
+                    <h3>Request: </h3>
+               </center>
+               <form method="POST" action="../php/contact-form-handler.php">
+                    <div class="input-row">
+                         <div class="input-group">
+                              <label> Name: </label>
+                              <input required name="name" type="text" placeholder="ex. Mark Zaydman">
+                         </div>
+                         <div class="input-group">
+                              <label> Email: </label>
+                              <input required name="email" type="email" placeholder="ex. markz@example.com">
+                         </div>
+                    </div>
+                    <div class="input-group" style="margin-bottom: 10%;">
+                         <label> Subject: </label>
+                         <input required name="subject" type="text" placeholder="ex. What is inquiry about?">
+                    </div>
+                    <div class="input-group">
+                         <label> Message: </label>
+                         <textarea required name="message" rows="10"
+                              placeholder="ex. Here I type the message."></textarea>
+                    </div>
+                    <center>
+                         <button type="submit" name="submit">Submit</button>
+                    </center>
+               </form>
+          </div>
+
+     </div>
+     <footer>
+          <div>
+               <div class="innerfooter">
+
+                    <center>
+                         <div class="foot">
+
+                              <a class="one" target="_blank" href="https://github.com/ChenaCoder"><img
+                                        src="../images/github.png">GitHub</a>
+                              <a class="two" target="_blank" href="https://www.instagram.com/mark_krammarkkram/"><img
+                                        src="../images/instagram.png">Instagram</a>
+                              <a class="three" target="_blank" href="https://www.facebook.com/mark.zaydman.52"><img
+                                        src="../images/Facebook.png">Facebook</a>
+                              <a class="four" id="contact" href="../contactme/"><img src="../images/mail.png">Contact
+                                   Me</a>
+
+                         </div>
+                    </center>
+                    <a class="links" id="license" target="_blank" href="../license/">&copy; Mark Zaydman,
+                         2021
+                         <br>Licensed under MIT License</a>
+                    <a class="links" id="secret" target="_blank" href="../topsecret/">Top Secret Dont
+                         Click</a>
+               </div>
+     </footer>
+     <script src="../javascript/index.js"></script>
+</body>
+
+</html>

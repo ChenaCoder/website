@@ -1,0 +1,22 @@
+button:hover{
+     cursor:pointer;
+}
+body{
+     margin-top: 40vh;
+     background-color:#12232e ;
+     color: #eefbfb;
+     font-family: "Montserrat" ;
+     font-weight: bold;
+     font-size: 3vh;
+}
+button{
+     background:#1c7293ff ;
+     color: #eefbfb;
+     font-family: "Montserrat" ;
+     width: 30vh;
+     height: 3vh;
+     border: none;
+     border-radius: 30px;
+     outline: none;
+     font-size: 2vh;
+}
